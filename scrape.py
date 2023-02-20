@@ -7,11 +7,3 @@ def scrape(url):
     sleep(duration)
     print("finished", url, "time taken:", duration, "seconds")
     return url, duration
-
-urls = ["a.com", "b.com", "c.com", "d.com"]
-
-if __name__ == "__main__":
-    output = []
-    for url in urls:
-        result = scrape(url)
-        output.append(result)
